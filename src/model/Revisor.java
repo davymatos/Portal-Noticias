@@ -1,9 +1,9 @@
 package model;
 
-public class ChefeRedacao extends Funcionario{
+public class Revisor extends Funcionario{
     public double salario;
 
-    public ChefeRedacao(double salario, String nome) {
+    public Revisor(double salario, String nome) {
         super(nome);
         this.salario = salario;
     }
@@ -25,4 +25,7 @@ public class ChefeRedacao extends Funcionario{
     public void setNome(String nome) {
         this.nome = nome;
     }
+    
+    
+    
 }
